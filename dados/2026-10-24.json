@@ -360,6 +360,31 @@
       "reportedAt": null,
       "timeBasis": "horario_exibido_no_relogio",
       "timeZone": "America/Sao_Paulo"
+    },
+    {
+      "id": "pao-caseiro-leite-condensado-coco-20261024-1801",
+      "type": "food",
+      "date": "2026-10-24",
+      "at": "18:01",
+      "createdAt": "2026-10-24T18:01:26-03:00",
+      "name": "Pão caseiro doce recheado com leite condensado e coco",
+      "qty": 100,
+      "unit": "g",
+      "meal": "Lanche",
+      "values": {
+        "kcal": 350,
+        "p": 7,
+        "c": 55,
+        "f": 11,
+        "sat": 6.5,
+        "sodium": 180,
+        "chol": 25
+      },
+      "unconfirmed": false,
+      "source": "relato do usuário",
+      "note": "Estimativa nutricional para pão caseiro doce com recheio de leite condensado e coco; a receita exata e o recheio não foram informados.",
+      "timeBasis": "horario_da_mensagem",
+      "timeZone": "America/Sao_Paulo"
     }
   ],
   "products": [
