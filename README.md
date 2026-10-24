@@ -1,22 +1,21 @@
-# Diário do Clay
+# Diário Clay
 
-Diário pessoal de **alimentação, suplementos, exercícios, peso e bioimpedância**, com horários de ingestão ou medição e dados do relógio.
+Diário de alimentação, suplementos, treinos, peso e bioimpedância.
 
-## Arquivos
-- [index.html](index.html) — aplicativo HTML com painel de nutrientes, suplementos, treino e bioimpedância, incluindo as diferenças em relação às referências exibidas pelo relógio.
-- [dados/2026-10-24.json](dados/2026-10-24.json) — registros estruturados e as medidas de 24/10/2026.
-- [relatorios/2026-10-24.md](relatorios/2026-10-24.md) — relatório com cronologia, indicadores e desvios de referência.
+## Links
+- **Aplicativo (após habilitar o GitHub Pages):** https://clayyper.github.io/-diario-clay/
+- **Dados:** [dados/2026-10-24.json](dados/2026-10-24.json)
+- **Índice de dias:** [dados/index.json](dados/index.json)
+- **Relatório:** [relatorios/2026-10-24.md](relatorios/2026-10-24.md)
 
-## Estado atual
+## Funcionamento
+O painel do GitHub Pages consulta os arquivos JSON do repositório ao abrir e ao clicar em "Atualizar do GitHub". O índice `dados/index.json` deve conter todos os dias armazenados. Novas refeições comunicadas pelo chat podem ser acrescentadas ao JSON do dia com a conexão autorizada ao GitHub, após confirmação de gravação. O painel publicado é **somente leitura**; não grava no GitHub por conta própria.
 
-- **Os dados estão neste repositório privado.**
-- **A aplicação HTML está versionada aqui**, mas ainda **não foi publicada como site acessível por endereço fixo**.
-- O HTML independente usa IndexedDB/localStorage para o banco no navegador; **não recebe automaticamente as atualizações do repositório privado**.
-- A sincronização com o ChatGPT já pode gravar arquivos no GitHub quando a conexão estiver habilitada e a operação for executada; mas **a sincronização do navegador requer autenticação segura e ainda não está implementada**.
-- Não habilitar GitHub Pages com dados pessoais embutidos no HTML. GitHub Pages pode expor o conteúdo publicado mesmo se o código estiver em repositório privado.
+## Publicação
+O proprietário precisa ativar Settings → Pages → Deploy from a branch → main → / (root) → Save. O GitHub Pages pode levar alguns minutos para publicar.
 
-## Horários
-Quando a pessoa informa consumo, treino ou medição ao ChatGPT, o horário é o da mensagem (horário local America/Sao_Paulo), salvo quando outro é indicado. Os registros de 24/10 tiveram os horários confirmados explicitamente.
+## Aviso de privacidade
+**O repositório é público.** Isso expõe os arquivos, incluindo dados de peso, suplementação, alimentação e composição corporal, mesmo sem CPF. Alterar posteriormente para privado não garante apagar cópias já disponibilizadas na internet. Publicar apenas dados que aceitaria tornar públicos.
 
-## Referência de bioimpedância
-Os sinais +/− do relógio são conservados no campo `referenceDifferences`. A referência aproximada é calculada como **medida − diferença**. Esses valores são meramente os comparativos exibidos pelo dispositivo, **não metas clínicas nem diagnósticos**.
+## Medições e horários
+Os horários de 24/10/2026 foram informados pelo usuário, e a bioimpedância foi registrada às 14h36. Valores alimentares são estimativas. Diferenças exibidas pelo relógio são referências do dispositivo, não metas clínicas.
