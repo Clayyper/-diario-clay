@@ -385,6 +385,56 @@
       "note": "Estimativa nutricional para pão caseiro doce com recheio de leite condensado e coco; a receita exata e o recheio não foram informados.",
       "timeBasis": "horario_da_mensagem",
       "timeZone": "America/Sao_Paulo"
+    },
+    {
+      "id": "pao-sal-requeijao-20261024-1804",
+      "type": "food",
+      "date": "2026-10-24",
+      "at": "18:04",
+      "createdAt": "2026-10-24T18:04:05-03:00",
+      "name": "Pão de sal com requeijão (50 g de pão + 20 g de requeijão, estimado)",
+      "qty": 1,
+      "unit": "un",
+      "meal": "Lanche",
+      "values": {
+        "kcal": 202,
+        "p": 6.6,
+        "c": 29.8,
+        "f": 6.3,
+        "sat": 3.35,
+        "sodium": 365,
+        "chol": 14
+      },
+      "unconfirmed": false,
+      "source": "relato do usuário",
+      "note": "Porção estimada como pão de sal de 50 g e requeijão de 20 g; composição pode variar.",
+      "timeBasis": "horario_da_mensagem",
+      "timeZone": "America/Sao_Paulo"
+    },
+    {
+      "id": "suco-acerola-200-20261024-1804",
+      "type": "food",
+      "date": "2026-10-24",
+      "at": "18:04",
+      "createdAt": "2026-10-24T18:04:05-03:00",
+      "name": "Suco natural de acerola (200 ml, sem açúcar presumido)",
+      "qty": 200,
+      "unit": "ml",
+      "meal": "Lanche",
+      "values": {
+        "kcal": 12.5,
+        "p": 0.3,
+        "c": 2.9,
+        "f": 0.15,
+        "sat": 0.05,
+        "sodium": 0.3,
+        "chol": 0
+      },
+      "unconfirmed": false,
+      "source": "relato do usuário",
+      "note": "Estimativa para suco diluído em água, sem açúcar presumido; confirmar adoçamento se necessário.",
+      "timeBasis": "horario_da_mensagem",
+      "timeZone": "America/Sao_Paulo"
     }
   ],
   "products": [
