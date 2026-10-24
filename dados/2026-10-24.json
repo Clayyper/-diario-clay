@@ -435,6 +435,33 @@
       "note": "Estimativa para suco diluído em água, sem açúcar presumido; confirmar adoçamento se necessário.",
       "timeBasis": "horario_da_mensagem",
       "timeZone": "America/Sao_Paulo"
+    },
+    {
+      "id": "pao-caseiro-leite-condensado-coco-20261024-1825",
+      "type": "food",
+      "date": "2026-10-24",
+      "at": "18:25",
+      "createdAt": "2026-10-24T18:25:22-03:00",
+      "name": "Pão caseiro com leite condensado e coco (mais uma unidade)",
+      "qty": 1,
+      "unit": "un",
+      "meal": "Lanche",
+      "estimatedWeightG": 100,
+      "weightUnconfirmed": true,
+      "values": {
+        "kcal": 350,
+        "p": 7,
+        "c": 55,
+        "f": 11,
+        "sat": 6.5,
+        "sodium": 180,
+        "chol": 25
+      },
+      "unconfirmed": false,
+      "source": "relato do usuário",
+      "note": "1 pãozinho consumido; peso ainda não informado. Estimativa de nutrientes baseada em 100 g, como a porção anterior; ajustar após confirmação do peso.",
+      "timeBasis": "horario_da_mensagem",
+      "timeZone": "America/Sao_Paulo"
     }
   ],
   "products": [
