@@ -1,6 +1,6 @@
 {
   "format": "diario-alimentar-treinos",
-  "version": 9,
+  "version": 10,
   "seeded": 1,
   "updatePhotos_20261024": true,
   "entries": [
@@ -21,7 +21,14 @@
         "f": 12,
         "sat": 3,
         "sodium": 200,
-        "chol": 65
+        "chol": 65,
+        "sugar_g": 25,
+        "fiber_g": 1,
+        "water_g": 30,
+        "calcium_mg": 60,
+        "iron_mg": 1,
+        "potassium_mg": 100,
+        "leucine_g": 0.3
       },
       "unconfirmed": false,
       "source": "conversa",
@@ -29,7 +36,23 @@
       "messageOrder": 1,
       "reportedAt": null,
       "timeBasis": "horario_informado_pelo_usuario",
-      "timeZone": "America/Sao_Paulo"
+      "timeZone": "America/Sao_Paulo",
+      "nutritionProfile": "bolo",
+      "nutritionEstimate": "estimativa_aproximada_por_alimento_generico",
+      "nutrientsNotDetermined": [
+        "a_mcg",
+        "b1_mg",
+        "b6_mg",
+        "b9_mcg",
+        "b12_mcg",
+        "c_mg",
+        "d_mcg",
+        "e_mg",
+        "magnesium_mg",
+        "zinc_mg",
+        "phosphorus_mg"
+      ],
+      "nutritionNote": "Estimativas médias de alimentos genéricos para análise de tendências de hipertrofia; não substituem análise do preparo ou do rótulo."
     },
     {
       "id": "seed-queijo",
@@ -48,7 +71,19 @@
         "f": 12,
         "sat": 7,
         "sodium": 300,
-        "chol": 40
+        "chol": 40,
+        "sugar_g": 0.5,
+        "fiber_g": 0,
+        "water_g": 25,
+        "calcium_mg": 250,
+        "phosphorus_mg": 175,
+        "potassium_mg": 38,
+        "magnesium_mg": 10,
+        "iron_mg": 0.2,
+        "zinc_mg": 1.4,
+        "a_mcg": 85,
+        "b12_mcg": 1.15,
+        "leucine_g": 0.9
       },
       "unconfirmed": false,
       "source": "conversa",
@@ -56,7 +91,18 @@
       "messageOrder": 2,
       "reportedAt": null,
       "timeBasis": "horario_informado_pelo_usuario",
-      "timeZone": "America/Sao_Paulo"
+      "timeZone": "America/Sao_Paulo",
+      "nutritionProfile": "queijo",
+      "nutritionEstimate": "estimativa_aproximada_por_alimento_generico",
+      "nutrientsNotDetermined": [
+        "b1_mg",
+        "b6_mg",
+        "b9_mcg",
+        "c_mg",
+        "d_mcg",
+        "e_mg"
+      ],
+      "nutritionNote": "Estimativas médias de alimentos genéricos para análise de tendências de hipertrofia; não substituem análise do preparo ou do rótulo."
     },
     {
       "id": "seed-acerola",
@@ -75,7 +121,8 @@
         "f": 0.3,
         "sat": 0.1,
         "sodium": 0.6,
-        "chol": 0
+        "chol": 0,
+        "water_g": 392
       },
       "unconfirmed": false,
       "source": "conversa",
@@ -83,7 +130,29 @@
       "messageOrder": 3,
       "reportedAt": null,
       "timeBasis": "horario_informado_pelo_usuario",
-      "timeZone": "America/Sao_Paulo"
+      "timeZone": "America/Sao_Paulo",
+      "nutritionProfile": "suco100",
+      "nutritionEstimate": "estimativa_aproximada_por_alimento_generico",
+      "nutrientsNotDetermined": [
+        "sugar_g",
+        "fiber_g",
+        "a_mcg",
+        "b1_mg",
+        "b6_mg",
+        "b9_mcg",
+        "b12_mcg",
+        "c_mg",
+        "d_mcg",
+        "e_mg",
+        "magnesium_mg",
+        "potassium_mg",
+        "calcium_mg",
+        "iron_mg",
+        "zinc_mg",
+        "phosphorus_mg",
+        "leucine_g"
+      ],
+      "nutritionNote": "A quantidade de vitamina C não foi calculada: falta a proporção de fruta/água e o preparo. Vitamina C presente, porém teor não determinado."
     },
     {
       "id": "seed-pao-requeijao",
@@ -102,7 +171,16 @@
         "f": 6.3,
         "sat": 3.35,
         "sodium": 365,
-        "chol": 14
+        "chol": 14,
+        "sugar_g": 2,
+        "fiber_g": 1.5,
+        "water_g": 30,
+        "calcium_mg": 90,
+        "iron_mg": 1.5,
+        "potassium_mg": 95,
+        "magnesium_mg": 15,
+        "phosphorus_mg": 95,
+        "leucine_g": 0.52
       },
       "unconfirmed": false,
       "source": "conversa",
@@ -110,7 +188,21 @@
       "messageOrder": 4,
       "reportedAt": null,
       "timeBasis": "horario_informado_pelo_usuario",
-      "timeZone": "America/Sao_Paulo"
+      "timeZone": "America/Sao_Paulo",
+      "nutritionProfile": "pao-requeijao",
+      "nutritionEstimate": "estimativa_aproximada_por_alimento_generico",
+      "nutrientsNotDetermined": [
+        "a_mcg",
+        "b1_mg",
+        "b6_mg",
+        "b9_mcg",
+        "b12_mcg",
+        "c_mg",
+        "d_mcg",
+        "e_mg",
+        "zinc_mg"
+      ],
+      "nutritionNote": "Estimativas médias de alimentos genéricos para análise de tendências de hipertrofia; não substituem análise do preparo ou do rótulo."
     },
     {
       "id": "photo-complexob-20261024",
@@ -213,7 +305,19 @@
         "f": 0.2,
         "sat": 0.1,
         "sodium": 1,
-        "chol": 0
+        "chol": 0,
+        "sugar_g": 0.1,
+        "fiber_g": 0.4,
+        "water_g": 69,
+        "calcium_mg": 3,
+        "iron_mg": 0.2,
+        "potassium_mg": 35,
+        "magnesium_mg": 12,
+        "phosphorus_mg": 43,
+        "zinc_mg": 0.5,
+        "b1_mg": 0.02,
+        "b6_mg": 0.04,
+        "leucine_g": 0.2
       },
       "unconfirmed": false,
       "source": "relato do usuário",
@@ -221,7 +325,18 @@
       "messageOrder": 9,
       "reportedAt": null,
       "timeBasis": "horario_informado_pelo_usuario",
-      "timeZone": "America/Sao_Paulo"
+      "timeZone": "America/Sao_Paulo",
+      "nutritionProfile": "arroz",
+      "nutritionEstimate": "estimativa_aproximada_por_alimento_generico",
+      "nutrientsNotDetermined": [
+        "a_mcg",
+        "b9_mcg",
+        "b12_mcg",
+        "c_mg",
+        "d_mcg",
+        "e_mg"
+      ],
+      "nutritionNote": "Estimativas médias de alimentos genéricos para análise de tendências de hipertrofia; não substituem análise do preparo ou do rótulo."
     },
     {
       "id": "almoco-vinagrete-20261024",
@@ -240,7 +355,11 @@
         "f": 1.8,
         "sat": 0.25,
         "sodium": 8,
-        "chol": 0
+        "chol": 0,
+        "fiber_g": 0.5,
+        "water_g": 45,
+        "potassium_mg": 70,
+        "c_mg": 4
       },
       "unconfirmed": false,
       "source": "relato do usuário",
@@ -248,7 +367,26 @@
       "messageOrder": 10,
       "reportedAt": null,
       "timeBasis": "horario_informado_pelo_usuario",
-      "timeZone": "America/Sao_Paulo"
+      "timeZone": "America/Sao_Paulo",
+      "nutritionProfile": "vinagrete",
+      "nutritionEstimate": "estimativa_aproximada_por_alimento_generico",
+      "nutrientsNotDetermined": [
+        "sugar_g",
+        "a_mcg",
+        "b1_mg",
+        "b6_mg",
+        "b9_mcg",
+        "b12_mcg",
+        "d_mcg",
+        "e_mg",
+        "magnesium_mg",
+        "calcium_mg",
+        "iron_mg",
+        "zinc_mg",
+        "phosphorus_mg",
+        "leucine_g"
+      ],
+      "nutritionNote": "Estimativas médias de alimentos genéricos para análise de tendências de hipertrofia; não substituem análise do preparo ou do rótulo."
     },
     {
       "id": "almoco-carne-cozida-20261024",
@@ -267,7 +405,19 @@
         "f": 16.8,
         "sat": 7.65,
         "sodium": 63,
-        "chol": 160.5
+        "chol": 160.5,
+        "sugar_g": 0,
+        "fiber_g": 0,
+        "water_g": 82.5,
+        "calcium_mg": 18,
+        "iron_mg": 3.75,
+        "potassium_mg": 450,
+        "magnesium_mg": 33,
+        "phosphorus_mg": 270,
+        "zinc_mg": 7.5,
+        "b6_mg": 0.48,
+        "b12_mcg": 3.3,
+        "leucine_g": 3.3
       },
       "unconfirmed": false,
       "source": "relato do usuário",
@@ -275,7 +425,18 @@
       "messageOrder": 11,
       "reportedAt": null,
       "timeBasis": "horario_informado_pelo_usuario",
-      "timeZone": "America/Sao_Paulo"
+      "timeZone": "America/Sao_Paulo",
+      "nutritionProfile": "carne100",
+      "nutritionEstimate": "estimativa_aproximada_por_alimento_generico",
+      "nutrientsNotDetermined": [
+        "a_mcg",
+        "b1_mg",
+        "b9_mcg",
+        "c_mg",
+        "d_mcg",
+        "e_mg"
+      ],
+      "nutritionNote": "Estimativas médias de alimentos genéricos para análise de tendências de hipertrofia; não substituem análise do preparo ou do rótulo."
     },
     {
       "id": "almoco-feijao-20261024",
@@ -294,7 +455,20 @@
         "f": 0.25,
         "sat": 0.05,
         "sodium": 1,
-        "chol": 0
+        "chol": 0,
+        "sugar_g": 0.15,
+        "fiber_g": 4,
+        "water_g": 38.5,
+        "calcium_mg": 15,
+        "iron_mg": 0.7,
+        "potassium_mg": 125,
+        "magnesium_mg": 25,
+        "phosphorus_mg": 50,
+        "zinc_mg": 0.5,
+        "b1_mg": 0.06,
+        "b6_mg": 0.04,
+        "b9_mcg": 50,
+        "leucine_g": 0.18
       },
       "unconfirmed": false,
       "source": "relato do usuário",
@@ -302,7 +476,17 @@
       "messageOrder": 12,
       "reportedAt": null,
       "timeBasis": "horario_informado_pelo_usuario",
-      "timeZone": "America/Sao_Paulo"
+      "timeZone": "America/Sao_Paulo",
+      "nutritionProfile": "feijao100",
+      "nutritionEstimate": "estimativa_aproximada_por_alimento_generico",
+      "nutrientsNotDetermined": [
+        "a_mcg",
+        "b12_mcg",
+        "c_mg",
+        "d_mcg",
+        "e_mg"
+      ],
+      "nutritionNote": "Estimativas médias de alimentos genéricos para análise de tendências de hipertrofia; não substituem análise do preparo ou do rótulo."
     },
     {
       "id": "suco-acerola-extra-200-20261024",
@@ -321,7 +505,8 @@
         "f": 0.15,
         "sat": 0.05,
         "sodium": 0.3,
-        "chol": 0
+        "chol": 0,
+        "water_g": 196
       },
       "unconfirmed": false,
       "source": "relato do usuário",
@@ -329,7 +514,29 @@
       "messageOrder": 13,
       "reportedAt": null,
       "timeBasis": "horario_informado_pelo_usuario",
-      "timeZone": "America/Sao_Paulo"
+      "timeZone": "America/Sao_Paulo",
+      "nutritionProfile": "suco100",
+      "nutritionEstimate": "estimativa_aproximada_por_alimento_generico",
+      "nutrientsNotDetermined": [
+        "sugar_g",
+        "fiber_g",
+        "a_mcg",
+        "b1_mg",
+        "b6_mg",
+        "b9_mcg",
+        "b12_mcg",
+        "c_mg",
+        "d_mcg",
+        "e_mg",
+        "magnesium_mg",
+        "potassium_mg",
+        "calcium_mg",
+        "iron_mg",
+        "zinc_mg",
+        "phosphorus_mg",
+        "leucine_g"
+      ],
+      "nutritionNote": "A quantidade de vitamina C não foi calculada: falta a proporção de fruta/água e o preparo. Vitamina C presente, porém teor não determinado."
     },
     {
       "id": "bioimpedancia-20261024-1436",
@@ -378,13 +585,36 @@
         "f": 11,
         "sat": 6.5,
         "sodium": 180,
-        "chol": 25
+        "chol": 25,
+        "sugar_g": 25,
+        "fiber_g": 1.3,
+        "water_g": 25,
+        "calcium_mg": 50
       },
       "unconfirmed": false,
       "source": "relato do usuário",
       "note": "Estimativa nutricional para pão caseiro doce com recheio de leite condensado e coco; a receita exata e o recheio não foram informados.",
       "timeBasis": "horario_da_mensagem",
-      "timeZone": "America/Sao_Paulo"
+      "timeZone": "America/Sao_Paulo",
+      "nutritionProfile": "paodoce100",
+      "nutritionEstimate": "estimativa_aproximada_por_alimento_generico",
+      "nutrientsNotDetermined": [
+        "a_mcg",
+        "b1_mg",
+        "b6_mg",
+        "b9_mcg",
+        "b12_mcg",
+        "c_mg",
+        "d_mcg",
+        "e_mg",
+        "magnesium_mg",
+        "potassium_mg",
+        "iron_mg",
+        "zinc_mg",
+        "phosphorus_mg",
+        "leucine_g"
+      ],
+      "nutritionNote": "Estimativas médias de alimentos genéricos para análise de tendências de hipertrofia; não substituem análise do preparo ou do rótulo."
     },
     {
       "id": "pao-sal-requeijao-20261024-1804",
@@ -403,13 +633,36 @@
         "f": 6.3,
         "sat": 3.35,
         "sodium": 365,
-        "chol": 14
+        "chol": 14,
+        "sugar_g": 2,
+        "fiber_g": 1.5,
+        "water_g": 30,
+        "calcium_mg": 90,
+        "iron_mg": 1.5,
+        "potassium_mg": 95,
+        "magnesium_mg": 15,
+        "phosphorus_mg": 95,
+        "leucine_g": 0.52
       },
       "unconfirmed": false,
       "source": "relato do usuário",
       "note": "Porção estimada como pão de sal de 50 g e requeijão de 20 g; composição pode variar.",
       "timeBasis": "horario_da_mensagem",
-      "timeZone": "America/Sao_Paulo"
+      "timeZone": "America/Sao_Paulo",
+      "nutritionProfile": "pao-requeijao",
+      "nutritionEstimate": "estimativa_aproximada_por_alimento_generico",
+      "nutrientsNotDetermined": [
+        "a_mcg",
+        "b1_mg",
+        "b6_mg",
+        "b9_mcg",
+        "b12_mcg",
+        "c_mg",
+        "d_mcg",
+        "e_mg",
+        "zinc_mg"
+      ],
+      "nutritionNote": "Estimativas médias de alimentos genéricos para análise de tendências de hipertrofia; não substituem análise do preparo ou do rótulo."
     },
     {
       "id": "suco-acerola-200-20261024-1804",
@@ -428,13 +681,36 @@
         "f": 0.15,
         "sat": 0.05,
         "sodium": 0.3,
-        "chol": 0
+        "chol": 0,
+        "water_g": 196
       },
       "unconfirmed": false,
       "source": "relato do usuário",
       "note": "Estimativa para suco diluído em água, sem açúcar presumido; confirmar adoçamento se necessário.",
       "timeBasis": "horario_da_mensagem",
-      "timeZone": "America/Sao_Paulo"
+      "timeZone": "America/Sao_Paulo",
+      "nutritionProfile": "suco100",
+      "nutritionEstimate": "estimativa_aproximada_por_alimento_generico",
+      "nutrientsNotDetermined": [
+        "sugar_g",
+        "fiber_g",
+        "a_mcg",
+        "b1_mg",
+        "b6_mg",
+        "b9_mcg",
+        "b12_mcg",
+        "c_mg",
+        "d_mcg",
+        "e_mg",
+        "magnesium_mg",
+        "potassium_mg",
+        "calcium_mg",
+        "iron_mg",
+        "zinc_mg",
+        "phosphorus_mg",
+        "leucine_g"
+      ],
+      "nutritionNote": "A quantidade de vitamina C não foi calculada: falta a proporção de fruta/água e o preparo. Vitamina C presente, porém teor não determinado."
     },
     {
       "id": "pao-caseiro-leite-condensado-coco-20261024-1825",
@@ -455,13 +731,36 @@
         "f": 11,
         "sat": 6.5,
         "sodium": 180,
-        "chol": 25
+        "chol": 25,
+        "sugar_g": 25,
+        "fiber_g": 1.3,
+        "water_g": 25,
+        "calcium_mg": 50
       },
       "unconfirmed": false,
       "source": "relato do usuário",
       "note": "1 pãozinho consumido; peso ainda não informado. Estimativa de nutrientes baseada em 100 g, como a porção anterior; ajustar após confirmação do peso.",
       "timeBasis": "horario_da_mensagem",
-      "timeZone": "America/Sao_Paulo"
+      "timeZone": "America/Sao_Paulo",
+      "nutritionProfile": "paodoce100",
+      "nutritionEstimate": "estimativa_aproximada_por_alimento_generico",
+      "nutrientsNotDetermined": [
+        "a_mcg",
+        "b1_mg",
+        "b6_mg",
+        "b9_mcg",
+        "b12_mcg",
+        "c_mg",
+        "d_mcg",
+        "e_mg",
+        "magnesium_mg",
+        "potassium_mg",
+        "iron_mg",
+        "zinc_mg",
+        "phosphorus_mg",
+        "leucine_g"
+      ],
+      "nutritionNote": "Estimativas médias de alimentos genéricos para análise de tendências de hipertrofia; não substituem análise do preparo ou do rótulo."
     },
     {
       "type": "food",
@@ -484,9 +783,32 @@
         "f": 0.2,
         "sat": 0.1,
         "sodium": 1,
-        "chol": 0
+        "chol": 0,
+        "sugar_g": 0.1,
+        "fiber_g": 0.4,
+        "water_g": 69,
+        "calcium_mg": 3,
+        "iron_mg": 0.2,
+        "potassium_mg": 35,
+        "magnesium_mg": 12,
+        "phosphorus_mg": 43,
+        "zinc_mg": 0.5,
+        "b1_mg": 0.02,
+        "b6_mg": 0.04,
+        "leucine_g": 0.2
       },
-      "note": "Valores da mesma referência de arroz cozido usada no almoço; sal/óleo adicionados não informados."
+      "note": "Valores da mesma referência de arroz cozido usada no almoço; sal/óleo adicionados não informados.",
+      "nutritionProfile": "arroz",
+      "nutritionEstimate": "estimativa_aproximada_por_alimento_generico",
+      "nutrientsNotDetermined": [
+        "a_mcg",
+        "b9_mcg",
+        "b12_mcg",
+        "c_mg",
+        "d_mcg",
+        "e_mg"
+      ],
+      "nutritionNote": "Estimativas médias de alimentos genéricos para análise de tendências de hipertrofia; não substituem análise do preparo ou do rótulo."
     },
     {
       "type": "food",
@@ -509,9 +831,32 @@
         "f": 16.8,
         "sat": 7.65,
         "sodium": 63,
-        "chol": 160.5
+        "chol": 160.5,
+        "sugar_g": 0,
+        "fiber_g": 0,
+        "water_g": 82.5,
+        "calcium_mg": 18,
+        "iron_mg": 3.75,
+        "potassium_mg": 450,
+        "magnesium_mg": 33,
+        "phosphorus_mg": 270,
+        "zinc_mg": 7.5,
+        "b6_mg": 0.48,
+        "b12_mcg": 3.3,
+        "leucine_g": 3.3
       },
-      "note": "Preparo cozido presumido com base na refeição anterior; corte e sal não informados."
+      "note": "Preparo cozido presumido com base na refeição anterior; corte e sal não informados.",
+      "nutritionProfile": "carne100",
+      "nutritionEstimate": "estimativa_aproximada_por_alimento_generico",
+      "nutrientsNotDetermined": [
+        "a_mcg",
+        "b1_mg",
+        "b9_mcg",
+        "c_mg",
+        "d_mcg",
+        "e_mg"
+      ],
+      "nutritionNote": "Estimativas médias de alimentos genéricos para análise de tendências de hipertrofia; não substituem análise do preparo ou do rótulo."
     },
     {
       "type": "food",
@@ -536,9 +881,32 @@
         "f": 0.24,
         "sat": 0.036,
         "sodium": 6,
-        "chol": 0
+        "chol": 0,
+        "sugar_g": 3.2,
+        "fiber_g": 1.4,
+        "water_g": 113,
+        "calcium_mg": 12,
+        "iron_mg": 0.33,
+        "potassium_mg": 285,
+        "magnesium_mg": 13,
+        "phosphorus_mg": 29,
+        "a_mcg": 50,
+        "b9_mcg": 18,
+        "c_mg": 16,
+        "e_mg": 0.65
       },
-      "note": "1 tomate médio estimado em 120 g de parte comestível, sem tempero."
+      "note": "1 tomate médio estimado em 120 g de parte comestível, sem tempero.",
+      "nutritionProfile": "tomate120",
+      "nutritionEstimate": "estimativa_aproximada_por_alimento_generico",
+      "nutrientsNotDetermined": [
+        "b1_mg",
+        "b6_mg",
+        "b12_mcg",
+        "d_mcg",
+        "zinc_mg",
+        "leucine_g"
+      ],
+      "nutritionNote": "Estimativas médias de alimentos genéricos para análise de tendências de hipertrofia; não substituem análise do preparo ou do rótulo."
     },
     {
       "id": "linguica-costela-bovina-queijo-canastra-20261024-2147",
@@ -557,13 +925,36 @@
         "f": 38,
         "sat": 15,
         "sodium": 1200,
-        "chol": 110
+        "chol": 110,
+        "fiber_g": 0
       },
       "unconfirmed": false,
       "source": "relato do usuário",
       "timeBasis": "horario_da_mensagem",
       "timeZone": "America/Sao_Paulo",
-      "note": "Estimativa genérica para linguiça bovina com queijo, sem marca, rótulo ou modo de preparo informado. Sódio e gorduras variam bastante; valores não são os do produto específico."
+      "note": "Estimativa genérica para linguiça bovina com queijo, sem marca, rótulo ou modo de preparo informado. Sódio e gorduras variam bastante; valores não são os do produto específico.",
+      "nutritionProfile": "linguica",
+      "nutritionEstimate": "estimativa_aproximada_por_alimento_generico",
+      "nutrientsNotDetermined": [
+        "sugar_g",
+        "a_mcg",
+        "b1_mg",
+        "b6_mg",
+        "b9_mcg",
+        "b12_mcg",
+        "c_mg",
+        "d_mcg",
+        "e_mg",
+        "magnesium_mg",
+        "potassium_mg",
+        "calcium_mg",
+        "iron_mg",
+        "zinc_mg",
+        "phosphorus_mg",
+        "leucine_g",
+        "water_g"
+      ],
+      "nutritionNote": "Preparação sem rótulo: vitaminas e minerais não determinados, exceto fibra dietética normalmente ausente."
     },
     {
       "id": "suco-acerola-200-20261024-2155",
@@ -582,13 +973,36 @@
         "f": 0.15,
         "sat": 0.05,
         "sodium": 0.3,
-        "chol": 0
+        "chol": 0,
+        "water_g": 196
       },
       "unconfirmed": false,
       "source": "relato do usuário",
       "note": "Valor nutricional estimado para suco diluído em água, sem açúcar presumido; concentração da fruta não especificada.",
       "timeBasis": "horario_da_mensagem",
-      "timeZone": "America/Sao_Paulo"
+      "timeZone": "America/Sao_Paulo",
+      "nutritionProfile": "suco100",
+      "nutritionEstimate": "estimativa_aproximada_por_alimento_generico",
+      "nutrientsNotDetermined": [
+        "sugar_g",
+        "fiber_g",
+        "a_mcg",
+        "b1_mg",
+        "b6_mg",
+        "b9_mcg",
+        "b12_mcg",
+        "c_mg",
+        "d_mcg",
+        "e_mg",
+        "magnesium_mg",
+        "potassium_mg",
+        "calcium_mg",
+        "iron_mg",
+        "zinc_mg",
+        "phosphorus_mg",
+        "leucine_g"
+      ],
+      "nutritionNote": "A quantidade de vitamina C não foi calculada: falta a proporção de fruta/água e o preparo. Vitamina C presente, porém teor não determinado."
     }
   ],
   "products": [
@@ -632,5 +1046,34 @@
   },
   "notes": "24/10/2026: consumo, suplementos, treino, peso e bioimpedância completos; horas informadas pelo usuário. Frango não foi consumido. Nutrientes estimados. Desvios de referência conforme relógio.",
   "updateBioimpedance_20261024": true,
-  "updateBioReference_20261024": true
+  "updateBioReference_20261024": true,
+  "nutrientSchemaVersion": 2,
+  "nutrientSchema": {
+    "unitSystem": "g/mg/mcg conforme chave",
+    "macrosPreserved": true,
+    "extraFields": [
+      "sugar_g",
+      "fiber_g",
+      "a_mcg",
+      "b1_mg",
+      "b6_mg",
+      "b9_mcg",
+      "b12_mcg",
+      "c_mg",
+      "d_mcg",
+      "e_mg",
+      "magnesium_mg",
+      "potassium_mg",
+      "calcium_mg",
+      "iron_mg",
+      "zinc_mg",
+      "phosphorus_mg",
+      "leucine_g",
+      "water_g"
+    ],
+    "unknownPolicy": "campo ausente é não determinado, NÃO zero",
+    "sourceModel": "estimativas genéricas aproximadas; sem rótulos completos nem receitas exatas",
+    "b9Notice": "Folato alimentar e metilfolato de suplemento não são diretamente equiparáveis a DFE"
+  },
+  "nutritionRecalculatedAt": "2026-10-25"
 }
