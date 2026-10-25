@@ -596,8 +596,8 @@
       "note": "Estimativa nutricional para pão caseiro doce com recheio de leite condensado e coco; a receita exata e o recheio não foram informados.",
       "timeBasis": "horario_da_mensagem",
       "timeZone": "America/Sao_Paulo",
-      "nutritionProfile": "paodoce100",
-      "nutritionEstimate": "estimativa_aproximada_por_alimento_generico",
+      "nutritionProfile": "pao-caseiro-leite-condensado-coco",
+      "nutritionEstimate": "estimativa_generica_por_100_g",
       "nutrientsNotDetermined": [
         "a_mcg",
         "b1_mg",
@@ -614,7 +614,11 @@
         "phosphorus_mg",
         "leucine_g"
       ],
-      "nutritionNote": "Estimativas médias de alimentos genéricos para análise de tendências de hipertrofia; não substituem análise do preparo ou do rótulo."
+      "nutritionNote": "Base padronizada: 350 kcal por 100 g estimados. Quantidades e nutrientes variam com peso, tamanho e recheio.",
+      "nutritionReference": "dados/perfis-alimentos.json#pao-caseiro-leite-condensado-coco",
+      "estimatedWeightG": 100,
+      "weightUnconfirmed": false,
+      "portionNote": "100 g informados pelo usuário no lançamento original"
     },
     {
       "id": "pao-sal-requeijao-20261024-1804",
@@ -742,8 +746,8 @@
       "note": "1 pãozinho consumido; peso ainda não informado. Estimativa de nutrientes baseada em 100 g, como a porção anterior; ajustar após confirmação do peso.",
       "timeBasis": "horario_da_mensagem",
       "timeZone": "America/Sao_Paulo",
-      "nutritionProfile": "paodoce100",
-      "nutritionEstimate": "estimativa_aproximada_por_alimento_generico",
+      "nutritionProfile": "pao-caseiro-leite-condensado-coco",
+      "nutritionEstimate": "estimativa_generica_por_100_g",
       "nutrientsNotDetermined": [
         "a_mcg",
         "b1_mg",
@@ -760,7 +764,9 @@
         "phosphorus_mg",
         "leucine_g"
       ],
-      "nutritionNote": "Estimativas médias de alimentos genéricos para análise de tendências de hipertrofia; não substituem análise do preparo ou do rótulo."
+      "nutritionNote": "Base padronizada: 350 kcal por 100 g estimados. Quantidades e nutrientes variam com peso, tamanho e recheio.",
+      "nutritionReference": "dados/perfis-alimentos.json#pao-caseiro-leite-condensado-coco",
+      "portionNote": "1 unidade considerada como 100 g estimados pelo usuário após comparação visual; não foi pesada"
     },
     {
       "type": "food",
