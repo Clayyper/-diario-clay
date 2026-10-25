@@ -1,0 +1,63 @@
+{
+  "format": "diario-alimentar-treinos",
+  "version": 9,
+  "seeded": 0,
+  "entries": [
+    {
+      "type": "food",
+      "date": "2026-10-25",
+      "at": "00:44",
+      "createdAt": "2026-10-25T00:44:29-03:00",
+      "meal": "Ceia",
+      "unconfirmed": false,
+      "source": "relato do usuário",
+      "timeBasis": "horario_da_mensagem",
+      "timeZone": "America/Sao_Paulo",
+      "id": "carne-bovina-cozida-100-20261025-0044",
+      "name": "Carne bovina cozida (corte não informado)",
+      "qty": 100,
+      "unit": "g",
+      "values": {
+        "kcal": 215,
+        "p": 27.3,
+        "c": 0,
+        "f": 11.2,
+        "sat": 5.1,
+        "sodium": 42,
+        "chol": 107
+      },
+      "note": "Corte e sal não informados; referência nutricional estimada da carne bovina cozida já utilizada no diário."
+    },
+    {
+      "type": "food",
+      "date": "2026-10-25",
+      "at": "00:44",
+      "createdAt": "2026-10-25T00:44:29-03:00",
+      "meal": "Ceia",
+      "unconfirmed": false,
+      "source": "relato do usuário",
+      "timeBasis": "horario_da_mensagem",
+      "timeZone": "America/Sao_Paulo",
+      "id": "suco-acerola-200-20261025-0044",
+      "name": "Suco natural de acerola (200 ml, sem açúcar presumido)",
+      "qty": 200,
+      "unit": "ml",
+      "values": {
+        "kcal": 12.5,
+        "p": 0.3,
+        "c": 2.9,
+        "f": 0.15,
+        "sat": 0.05,
+        "sodium": 0.3,
+        "chol": 0
+      },
+      "note": "Suco preparado com água e sem açúcar presumido; composição aproximada."
+    }
+  ],
+  "products": [],
+  "timePolicy": {
+    "timezone": "America/Sao_Paulo",
+    "default": "horario_da_mensagem_na_ausencia_de_outro",
+    "estimatedTimes": false
+  }
+}
