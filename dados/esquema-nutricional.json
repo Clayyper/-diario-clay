@@ -1,0 +1,170 @@
+{
+  "name": "Diário Clay — esquema nutricional para hipertrofia",
+  "version": 2,
+  "updatedAt": "2026-10-25",
+  "principles": [
+    "Preservar horário, quantidade e preparo relatados",
+    "Não substituir desconhecido por zero",
+    "Preferir rótulo do produto ou tabela nutricional confiável",
+    "Distinguir estimativa genérica de medida declarada pelo rótulo",
+    "Manter histórico sem duplicar registros ao recalcular",
+    "Reconhecer que vitamina C de suco de acerola diluído não é mensurável sem receita"
+  ],
+  "dailyMetrics": [
+    {
+      "key": "kcal",
+      "name": "Calorias",
+      "unit": "kcal"
+    },
+    {
+      "key": "p",
+      "name": "Proteínas",
+      "unit": "g"
+    },
+    {
+      "key": "c",
+      "name": "Carboidratos",
+      "unit": "g"
+    },
+    {
+      "key": "f",
+      "name": "Gorduras totais",
+      "unit": "g"
+    },
+    {
+      "key": "sat",
+      "name": "Gorduras saturadas",
+      "unit": "g"
+    },
+    {
+      "key": "sodium",
+      "name": "Sódio",
+      "unit": "mg"
+    },
+    {
+      "key": "chol",
+      "name": "Colesterol",
+      "unit": "mg"
+    },
+    {
+      "key": "sugar_g",
+      "name": "Açúcares totais",
+      "unit": "g"
+    },
+    {
+      "key": "fiber_g",
+      "name": "Fibras",
+      "unit": "g"
+    },
+    {
+      "key": "a_mcg",
+      "name": "Vitamina A (equivalentes de retinol)",
+      "unit": "mcg"
+    },
+    {
+      "key": "b1_mg",
+      "name": "Vitamina B1",
+      "unit": "mg"
+    },
+    {
+      "key": "b6_mg",
+      "name": "Vitamina B6",
+      "unit": "mg"
+    },
+    {
+      "key": "b9_mcg",
+      "name": "Vitamina B9/folato",
+      "unit": "mcg"
+    },
+    {
+      "key": "b12_mcg",
+      "name": "Vitamina B12",
+      "unit": "mcg"
+    },
+    {
+      "key": "c_mg",
+      "name": "Vitamina C",
+      "unit": "mg"
+    },
+    {
+      "key": "d_mcg",
+      "name": "Vitamina D",
+      "unit": "mcg"
+    },
+    {
+      "key": "e_mg",
+      "name": "Vitamina E",
+      "unit": "mg"
+    },
+    {
+      "key": "magnesium_mg",
+      "name": "Magnésio",
+      "unit": "mg"
+    },
+    {
+      "key": "potassium_mg",
+      "name": "Potássio",
+      "unit": "mg"
+    },
+    {
+      "key": "calcium_mg",
+      "name": "Cálcio",
+      "unit": "mg"
+    },
+    {
+      "key": "iron_mg",
+      "name": "Ferro",
+      "unit": "mg"
+    },
+    {
+      "key": "zinc_mg",
+      "name": "Zinco",
+      "unit": "mg"
+    },
+    {
+      "key": "phosphorus_mg",
+      "name": "Fósforo",
+      "unit": "mg"
+    },
+    {
+      "key": "leucine_g",
+      "name": "Leucina",
+      "unit": "g"
+    },
+    {
+      "key": "water_g",
+      "name": "Água presente nos alimentos",
+      "unit": "g"
+    }
+  ],
+  "outsideDailyMetrics": [
+    "creatine_g",
+    "b2_mg",
+    "b3_mg",
+    "b5_mg",
+    "b7_mcg"
+  ],
+  "recordExample": {
+    "id": "identificador-unico",
+    "type": "food",
+    "date": "YYYY-MM-DD",
+    "at": "HH:MM",
+    "name": "Alimento",
+    "qty": 100,
+    "unit": "g",
+    "values": {
+      "kcal": 100,
+      "p": 5,
+      "fiber_g": null,
+      "c_mg": null
+    },
+    "nutritionEstimate": "estimativa_aproximada_por_alimento_generico"
+  },
+  "notes": [
+    "Campos extras ausentes/null significam não determinado, não zero",
+    "Não somar como exato nutrientes de fontes com cobertura parcial",
+    "Valor de folato alimentar e metilfolato em cápsulas não são diretamente comparáveis sem ajuste de equivalência",
+    "Medições de bioimpedância são estimativas, sensíveis à hidratação e horário",
+    "O arquivo público não deve conter credenciais nem informações que o proprietário queira manter privadas"
+  ]
+}
