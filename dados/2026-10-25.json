@@ -386,6 +386,34 @@
         "leucine_g"
       ],
       "nutritionNote": "Valores adicionais incompletos quando faltam rótulo ou receita. Ausência de dado não significa teor zero."
+    },
+    {
+      "id": "complexo-b-20261025-1232",
+      "type": "supplement",
+      "date": "2026-10-25",
+      "at": "12:32",
+      "createdAt": "2026-10-25T12:32:40-03:00",
+      "name": "Complexo B — rótulo fotografado",
+      "qty": 2,
+      "unit": "cápsula",
+      "productId": "complexo-b",
+      "labelSnapshot": {
+        "servingQty": 1,
+        "values": {
+          "b1_mg": 2.02,
+          "b2_mg": 2.74,
+          "b3_mg": 25,
+          "b5_mg": 5.64,
+          "b6_mg": 5,
+          "b7_mcg": 45,
+          "b9_mcg": 900,
+          "b12_mcg": 9.94
+        }
+      },
+      "source": "relato do usuário",
+      "note": "2 unidades relatadas. Rótulo recomenda 1 cápsula/dia.",
+      "timeBasis": "horario_da_mensagem",
+      "timeZone": "America/Sao_Paulo"
     }
   ],
   "products": [],
