@@ -2,7 +2,8 @@
   "format": "diario-clay-manifest",
   "version": 1,
   "days": [
-    "2026-10-24"
+    "2026-10-24",
+    "2026-10-25"
   ],
   "timezone": "America/Sao_Paulo"
 }
