@@ -508,9 +508,12 @@
         "water_g": 25,
         "calcium_mg": 50
       },
-      "nutritionProfile": "paodoce100",
-      "nutritionEstimate": "estimativa_aproximada_por_alimento_generico",
-      "note": "Um pãozinho; 100 g adotados provisoriamente com base no pão caseiro anteriormente registrado. Peso e receita exatos não informados."
+      "nutritionProfile": "pao-caseiro-leite-condensado-coco",
+      "nutritionEstimate": "estimativa_generica_por_100_g",
+      "note": "Um pãozinho; 100 g adotados provisoriamente com base no pão caseiro anteriormente registrado.",
+      "nutritionReference": "dados/perfis-alimentos.json#pao-caseiro-leite-condensado-coco",
+      "portionNote": "1 unidade considerada como 100 g estimados pelo usuário após comparação visual; não foi pesada",
+      "nutritionNote": "Base padronizada: 350 kcal por 100 g estimados. Quantidades e nutrientes variam com peso, tamanho e recheio."
     }
   ],
   "products": [],
