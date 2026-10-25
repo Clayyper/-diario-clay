@@ -1,6 +1,6 @@
 {
   "format": "diario-alimentar-treinos",
-  "version": 9,
+  "version": 10,
   "seeded": 0,
   "entries": [
     {
@@ -24,9 +24,32 @@
         "f": 11.2,
         "sat": 5.1,
         "sodium": 42,
-        "chol": 107
+        "chol": 107,
+        "sugar_g": 0,
+        "fiber_g": 0,
+        "water_g": 55,
+        "calcium_mg": 12,
+        "iron_mg": 2.5,
+        "potassium_mg": 300,
+        "magnesium_mg": 22,
+        "phosphorus_mg": 180,
+        "zinc_mg": 5,
+        "b6_mg": 0.32,
+        "b12_mcg": 2.2,
+        "leucine_g": 2.2
       },
-      "note": "Corte e sal não informados; referência nutricional estimada da carne bovina cozida já utilizada no diário."
+      "note": "Corte e sal não informados; referência nutricional estimada da carne bovina cozida já utilizada no diário.",
+      "nutritionProfile": "carne100",
+      "nutritionEstimate": "estimativa_aproximada_por_alimento_generico",
+      "nutrientsNotDetermined": [
+        "a_mcg",
+        "b1_mg",
+        "b9_mcg",
+        "c_mg",
+        "d_mcg",
+        "e_mg"
+      ],
+      "nutritionNote": "Estimativas médias de alimentos genéricos para análise de tendências de hipertrofia; não substituem análise do preparo ou do rótulo."
     },
     {
       "type": "food",
@@ -49,9 +72,32 @@
         "f": 0.15,
         "sat": 0.05,
         "sodium": 0.3,
-        "chol": 0
+        "chol": 0,
+        "water_g": 196
       },
-      "note": "Suco preparado com água e sem açúcar presumido; composição aproximada."
+      "note": "Suco preparado com água e sem açúcar presumido; composição aproximada.",
+      "nutritionProfile": "suco100",
+      "nutritionEstimate": "estimativa_aproximada_por_alimento_generico",
+      "nutrientsNotDetermined": [
+        "sugar_g",
+        "fiber_g",
+        "a_mcg",
+        "b1_mg",
+        "b6_mg",
+        "b9_mcg",
+        "b12_mcg",
+        "c_mg",
+        "d_mcg",
+        "e_mg",
+        "magnesium_mg",
+        "potassium_mg",
+        "calcium_mg",
+        "iron_mg",
+        "zinc_mg",
+        "phosphorus_mg",
+        "leucine_g"
+      ],
+      "nutritionNote": "A quantidade de vitamina C não foi calculada: falta a proporção de fruta/água e o preparo. Vitamina C presente, porém teor não determinado."
     }
   ],
   "products": [],
@@ -59,5 +105,34 @@
     "timezone": "America/Sao_Paulo",
     "default": "horario_da_mensagem_na_ausencia_de_outro",
     "estimatedTimes": false
-  }
+  },
+  "nutrientSchemaVersion": 2,
+  "nutrientSchema": {
+    "unitSystem": "g/mg/mcg conforme chave",
+    "macrosPreserved": true,
+    "extraFields": [
+      "sugar_g",
+      "fiber_g",
+      "a_mcg",
+      "b1_mg",
+      "b6_mg",
+      "b9_mcg",
+      "b12_mcg",
+      "c_mg",
+      "d_mcg",
+      "e_mg",
+      "magnesium_mg",
+      "potassium_mg",
+      "calcium_mg",
+      "iron_mg",
+      "zinc_mg",
+      "phosphorus_mg",
+      "leucine_g",
+      "water_g"
+    ],
+    "unknownPolicy": "campo ausente é não determinado, NÃO zero",
+    "sourceModel": "estimativas genéricas aproximadas; sem rótulos completos nem receitas exatas",
+    "b9Notice": "Folato alimentar e metilfolato de suplemento não são diretamente equiparáveis a DFE"
+  },
+  "nutritionRecalculatedAt": "2026-10-25"
 }
