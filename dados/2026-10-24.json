@@ -462,6 +462,83 @@
       "note": "1 pãozinho consumido; peso ainda não informado. Estimativa de nutrientes baseada em 100 g, como a porção anterior; ajustar após confirmação do peso.",
       "timeBasis": "horario_da_mensagem",
       "timeZone": "America/Sao_Paulo"
+    },
+    {
+      "type": "food",
+      "date": "2026-10-24",
+      "at": "21:33",
+      "createdAt": "2026-10-24T21:33:00-03:00",
+      "meal": "Jantar",
+      "unconfirmed": false,
+      "source": "relato do usuário",
+      "timeBasis": "horario_da_mensagem",
+      "timeZone": "America/Sao_Paulo",
+      "id": "jantar-arroz-20261024-2133",
+      "name": "Arroz branco cozido",
+      "qty": 100,
+      "unit": "g",
+      "values": {
+        "kcal": 128,
+        "p": 2.5,
+        "c": 28,
+        "f": 0.2,
+        "sat": 0.1,
+        "sodium": 1,
+        "chol": 0
+      },
+      "note": "Valores da mesma referência de arroz cozido usada no almoço; sal/óleo adicionados não informados."
+    },
+    {
+      "type": "food",
+      "date": "2026-10-24",
+      "at": "21:33",
+      "createdAt": "2026-10-24T21:33:00-03:00",
+      "meal": "Jantar",
+      "unconfirmed": false,
+      "source": "relato do usuário",
+      "timeBasis": "horario_da_mensagem",
+      "timeZone": "America/Sao_Paulo",
+      "id": "jantar-carne-bovina-20261024-2133",
+      "name": "Carne bovina (cozida presumida, corte não informado)",
+      "qty": 150,
+      "unit": "g",
+      "values": {
+        "kcal": 322.5,
+        "p": 40.95,
+        "c": 0,
+        "f": 16.8,
+        "sat": 7.65,
+        "sodium": 63,
+        "chol": 160.5
+      },
+      "note": "Preparo cozido presumido com base na refeição anterior; corte e sal não informados."
+    },
+    {
+      "type": "food",
+      "date": "2026-10-24",
+      "at": "21:33",
+      "createdAt": "2026-10-24T21:33:00-03:00",
+      "meal": "Jantar",
+      "unconfirmed": false,
+      "source": "relato do usuário",
+      "timeBasis": "horario_da_mensagem",
+      "timeZone": "America/Sao_Paulo",
+      "id": "jantar-tomate-20261024-2133",
+      "name": "Tomate médio cru",
+      "qty": 1,
+      "unit": "un",
+      "estimatedWeightG": 120,
+      "weightUnconfirmed": true,
+      "values": {
+        "kcal": 21.6,
+        "p": 1.08,
+        "c": 4.68,
+        "f": 0.24,
+        "sat": 0.036,
+        "sodium": 6,
+        "chol": 0
+      },
+      "note": "1 tomate médio estimado em 120 g de parte comestível, sem tempero."
     }
   ],
   "products": [
