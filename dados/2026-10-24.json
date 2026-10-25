@@ -539,6 +539,31 @@
         "chol": 0
       },
       "note": "1 tomate médio estimado em 120 g de parte comestível, sem tempero."
+    },
+    {
+      "id": "linguica-costela-bovina-queijo-canastra-20261024-2147",
+      "type": "food",
+      "date": "2026-10-24",
+      "at": "21:47",
+      "createdAt": "2026-10-24T21:47:25-03:00",
+      "name": "Linguiça de costela bovina com queijo Canastra",
+      "qty": 150,
+      "unit": "g",
+      "meal": "Jantar",
+      "values": {
+        "kcal": 450,
+        "p": 24,
+        "c": 2,
+        "f": 38,
+        "sat": 15,
+        "sodium": 1200,
+        "chol": 110
+      },
+      "unconfirmed": false,
+      "source": "relato do usuário",
+      "timeBasis": "horario_da_mensagem",
+      "timeZone": "America/Sao_Paulo",
+      "note": "Estimativa genérica para linguiça bovina com queijo, sem marca, rótulo ou modo de preparo informado. Sódio e gorduras variam bastante; valores não são os do produto específico."
     }
   ],
   "products": [
